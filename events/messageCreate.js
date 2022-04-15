@@ -1,6 +1,5 @@
 const client = require("..");
 const { cooldown } = require("../handlers/functions");
-const { prefix } = require("../settings/config");
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot || !message.guild) return;
