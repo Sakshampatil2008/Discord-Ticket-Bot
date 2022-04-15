@@ -3,4 +3,4 @@ A Ticket Bot Made With Discord.js
 
 
 >>> Any Problems ? 
- `[Join Support Server](https://discord.gg/gMZdeXApuB)
+ `[Join Support Server](https://discord.gg/gMZdeXApuB)`
