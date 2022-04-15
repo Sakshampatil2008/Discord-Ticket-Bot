@@ -1,4 +1,5 @@
 const { Client, Collection, Intents } = require("discord.js");
+const config = require('./config.json')
 const fs = require("fs");
 const client = new Client({
   messageCacheLifetime: 60,
@@ -38,7 +39,7 @@ client.subcmd = new Collection();
   require(`./handlers/${handler}`)(client);
 });
 
-client.login(token);
+client.login(config.CLIENT_TOKEN);
 
 process.on("unhandledRejection", (reason, p) => {
   console.log(" [Error_Handling] :: Unhandled Rejection/Catch");
