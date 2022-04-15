@@ -35,7 +35,7 @@ client.mcommands = new Collection();
 client.aliases = new Collection();
 client.subcmd = new Collection();
 
-["event_handler", "slash_handler", "cmd_handler"].forEach((handler) => {
+["event_handler", "slash_handler",].forEach((handler) => {
   require(`./handlers/${handler}`)(client);
 });
 
