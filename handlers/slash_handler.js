@@ -1,6 +1,5 @@
 const { Client, MessageEmbed } = require("discord.js");
-const fs = require("fs");
-const ee = require(`../settings/config`).embed
+const fs = require("fs")
 
 /**
  *
